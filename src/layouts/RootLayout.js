@@ -1,5 +1,6 @@
 import { NavLink, Outlet } from "react-router-dom"
 
+
 export default function RootLayout() {
     return (
         <div>
@@ -29,14 +30,10 @@ export default function RootLayout() {
                                     <NavLink className='nav-link' to='/Resume'>Resume</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="projects.html">
-                                        Projects
-                                    </a>
+                                    <NavLink className='nav-link' to='/Projects'>Projects</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="contact.html">
-                                        Contact
-                                    </a>
+                                    <NavLink className='nav-link' to='/Contact'>Contact</NavLink>
                                 </li>
                             </ul>
                         </div>

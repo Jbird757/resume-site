@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 //Components
-import Contents from '../components/ResumeContents';
+import Contents from '../components/ProjectContents';
 import Footer from '../components/Footer';
 
-const Resume = () => {
+const Home = () => {
     useEffect(() => {
-        document.title = 'Jay Lowry - Experience';
+        document.title = 'Jay Lowry - Projects';
     }, []);
-    
+
     return (
         <div className="d-flex flex-column h-100 bg-light">
             <div className="flex-shrink-0">
@@ -18,4 +18,4 @@ const Resume = () => {
     )
 };
 
-export default Resume;
+export default Home;

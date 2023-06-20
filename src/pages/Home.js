@@ -8,10 +8,10 @@ const Home = () => {
     useEffect(() => {
         document.title = 'Jay Lowry - Developer and Tech Enthusiast';
     }, []);
-    
+
     return (
-        <div class="d-flex flex-column h-100">
-            <div class="flex-shrink-0">
+        <div className="d-flex flex-column h-100">
+            <div className="flex-shrink-0">
             <Header />
             <About />
             </div>
@@ -21,10 +21,3 @@ const Home = () => {
 };
 
 export default Home;
-
-/*
-Questions:
-To-do:
-Finish Resume.js
-Make Routes and pages for other pages
-*/
