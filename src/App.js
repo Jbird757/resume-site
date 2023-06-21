@@ -42,8 +42,7 @@ Questions:
 
 
 To-do:
-Fix Contact Page
-Fix links in site - noton navbar
+Fix links in site - not on navbar
 
 
 Roadmap:
