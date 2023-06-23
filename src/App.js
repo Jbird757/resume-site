@@ -42,7 +42,6 @@ Questions:
 
 
 To-do:
-Fix links in site - not on navbar
 
 
 Roadmap:
