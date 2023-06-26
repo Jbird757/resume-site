@@ -42,7 +42,7 @@ Questions:
 
 
 To-do:
-
+Get Google fonts to load
 
 Roadmap:
 1. Deploy App
