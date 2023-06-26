@@ -1,7 +1,7 @@
 import React from 'react';
 import { ReactComponent as Dots } from '../assets/dots.svg';
 import Profile from '../assets/profile.png';
-import { Link, Outlet } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
