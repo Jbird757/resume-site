@@ -26,5 +26,5 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd /var/www/jaylowry.com
+            cd /var/www/jaylowry.com/resume-site
             git pull origin master
