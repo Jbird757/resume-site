@@ -12,6 +12,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+    
+      - name: Remove existing build directory
+        run: rm -rf build
 
       - name: Install dependencies
         run: npm install
