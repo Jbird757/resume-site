@@ -18,7 +18,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd /var/www/jaylowry.com/resume-site
+          pwd
           npm install
 
       - name: Build the app
@@ -35,3 +35,7 @@ jobs:
           script: |
             cd /var/www/jaylowry.com/resume-site
             git pull --force
+
+
+            /var/www/jaylowry.com/resume-site
+            /var/www/jaylowry.com/resume-site
