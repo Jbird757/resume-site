@@ -14,17 +14,13 @@ jobs:
         uses: actions/checkout@v3
     
       - name: Remove existing build directory
-        run: rm -rf /var/www/jaylowry.com/resume-site/build
+        run: rm -rf build
 
       - name: Install dependencies
-        run: |
-          pwd
-          npm install
+        run: npm install
 
       - name: Build the app
-        run: |
-          cd /var/www/jaylowry.com/resume-site
-          npm run build
+        run: npm run build
 
       - name: Get updated code via SSH
         uses: appleboy/ssh-action@v0.1.10
@@ -35,7 +31,3 @@ jobs:
           script: |
             cd /var/www/jaylowry.com/resume-site
             git pull --force
-
-
-            /var/www/jaylowry.com/resume-site
-            /var/www/jaylowry.com/resume-site
