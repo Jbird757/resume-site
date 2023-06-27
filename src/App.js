@@ -42,7 +42,10 @@ Questions:
 
 
 To-do:
-Get Google fonts to load
+1. Update Node.js on server
+2. Figure out how to deploy
+3. Update deploy.yml
+x. Get Google fonts to load
 
 Roadmap:
 1. Deploy App 
