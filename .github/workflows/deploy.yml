@@ -27,4 +27,4 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd /var/www/jaylowry.com/resume-site
-            git pull origin master
+            git pull --force
