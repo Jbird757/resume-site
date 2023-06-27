@@ -42,8 +42,6 @@ Questions:
 
 
 To-do:
-1. Update Node.js on server
-2. Figure out how to deploy
 3. Update deploy.yml
 x. Get Google fonts to load
 
