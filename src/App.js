@@ -43,7 +43,8 @@ Questions:
 
 To-do:
 3. Update deploy.yml
-x. Get Google fonts to load
+
+Get Google fonts to load - yeah maybe not, requires CORS
 
 Roadmap:
 1. Deploy App 

@@ -16,11 +16,6 @@ jobs:
       - name: Remove existing build directory
         run: rm -rf build
 
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build the app
-        run: npm run build
 
       - name: Get updated code via SSH
         uses: appleboy/ssh-action@v0.1.10
