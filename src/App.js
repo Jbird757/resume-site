@@ -42,12 +42,12 @@ Questions:
 
 
 To-do:
-3. Update deploy.yml
 
+Later:
+Get automatic deployments working - Github Actions file
 Get Google fonts to load - yeah maybe not, requires CORS
 
 Roadmap:
-1. Deploy App 
 2. Modify pages to match me - import photos and resume
 3. Change Style
 4. Create working form for contact
