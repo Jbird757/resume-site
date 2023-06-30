@@ -21,10 +21,10 @@ const Contents = () => {
                                 <div className="row align-items-center gx-5">
                                     <div className="col text-center text-lg-start mb-4 mb-lg-0">
                                         <div className="bg-light p-4 rounded-4">
-                                            <div className="text-primary fw-bolder mb-2">2019 - Present</div>
-                                            <div className="small fw-bolder">Web Developer</div>
-                                            <div className="small text-muted">Stark Industries</div>
-                                            <div className="small text-muted">Los Angeles, CA</div>
+                                            <div className="text-primary fw-bolder mb-2">2021-Present</div>
+                                            <div className="small fw-bolder">Help Desk Technician</div>
+                                            <div className="small text-muted">BYU Department of Physics and Astronomy</div>
+                                            <div className="small text-muted">Provo, UT</div>
                                         </div>
                                     </div>
                                     <div className="col-lg-8"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
@@ -36,10 +36,25 @@ const Contents = () => {
                                 <div className="row align-items-center gx-5">
                                     <div className="col text-center text-lg-start mb-4 mb-lg-0">
                                         <div className="bg-light p-4 rounded-4">
-                                            <div className="text-primary fw-bolder mb-2">2017 - 2019</div>
-                                            <div className="small fw-bolder">SEM Specialist</div>
-                                            <div className="small text-muted">Wayne Enterprises</div>
-                                            <div className="small text-muted">Gotham City, NY</div>
+                                            <div className="text-primary fw-bolder mb-2">Summer 2023</div>
+                                            <div className="small fw-bolder">Quality Assurance Engineer (Intern)</div>
+                                            <div className="small text-muted">Church of Jesus Christ of Latter-day Saints</div>
+                                            <div className="small text-muted">Riverton, UT (Remote)</div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-8"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="card shadow border-0 rounded-4 mb-5">
+                            <div className="card-body p-5">
+                                <div className="row align-items-center gx-5">
+                                    <div className="col text-center text-lg-start mb-4 mb-lg-0">
+                                        <div className="bg-light p-4 rounded-4">
+                                            <div className="text-primary fw-bolder mb-2">2018-2020</div>
+                                            <div className="small fw-bolder">Volunteer</div>
+                                            <div className="small text-muted">Church of Jesus Christ of Latter-day Saints</div>
+                                            <div className="small text-muted">Vietnam and Cambodia</div>
                                         </div>
                                     </div>
                                     <div className="col-lg-8"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
@@ -54,34 +69,14 @@ const Contents = () => {
                                 <div className="row align-items-center gx-5">
                                     <div className="col text-center text-lg-start mb-4 mb-lg-0">
                                         <div className="bg-light p-4 rounded-4">
-                                            <div className="text-secondary fw-bolder mb-2">2015 - 2017</div>
+                                            <div className="text-secondary fw-bolder mb-2">2017 - 2025</div>
                                             <div className="mb-2">
-                                                <div className="small fw-bolder">Barnett College</div>
-                                                <div className="small text-muted">Fairfield, NY</div>
+                                                <div className="small fw-bolder">Brigham Young University</div>
+                                                <div className="small text-muted">Provo, UT</div>
                                             </div>
                                             <div className="fst-italic">
-                                                <div className="small text-muted">Master's</div>
-                                                <div className="small text-muted">Web Development</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-8"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="card shadow border-0 rounded-4 mb-5">
-                            <div className="card-body p-5">
-                                <div className="row align-items-center gx-5">
-                                    <div className="col text-center text-lg-start mb-4 mb-lg-0">
-                                        <div className="bg-light p-4 rounded-4">
-                                            <div className="text-secondary fw-bolder mb-2">2011 - 2015</div>
-                                            <div className="mb-2">
-                                                <div className="small fw-bolder">ULA</div>
-                                                <div className="small text-muted">Los Angeles, CA</div>
-                                            </div>
-                                            <div className="fst-italic">
-                                                <div className="small text-muted">Undergraduate</div>
-                                                <div className="small text-muted">Computer Science</div>
+                                                <div className="small text-muted">Bachelors + Master's</div>
+                                                <div className="small text-muted">Information Systems</div>
                                             </div>
                                         </div>
                                     </div>

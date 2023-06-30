@@ -15,8 +15,48 @@ const Contents = () => {
                                 <div className="card-body p-0">
                                     <div className="d-flex align-items-center">
                                         <div className="p-5">
-                                            <h2 className="fw-bolder">Project Name 1</h2>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
+                                            <h2 className="fw-bolder" href="https://github.com/Jbird757/resume-site">This Website</h2>
+                                            <a className='' href='https://github.com/Jbird757/resume-site'>GitHub</a>
+                                            <p>
+                                                I made this website both to be a companion to my resume and to prove to myself that web development was something that I can do outside of 
+                                                class. In making this website, I taught myself React, a popular framework though new to me. To further enhance my learning, I did not take 
+                                                any shortcuts when making this website, and manually configured everything from the machine it's running on to the CI/CD pipeline with Github Actions. 
+                                                The most challenging parts of making this website were configuring Github Actions, another technology I taught myself, and importing Google Fonts, which 
+                                                required the use of CORS.
+                                            </p>
+                                        </div>
+                                        <img className="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div className="card-body p-0">
+                                    <div className="d-flex align-items-center">
+                                        <div className="p-5">
+                                            <h2 className="fw-bolder">ChatGPT How-To</h2>
+                                            <div className="fs-5 fw-light text-muted mb-2">(Under Construction)</div>
+                                            <p>
+                                                My next project is a website that teaches how to effectively interact with and use Large Language Models such as ChatGPT 3.5. This 
+                                                idea came to me as I sat through a long company meeting that was hosted by supposed experts on the subject, and watched them get nearly 
+                                                everything wrong. I realized that my experience and (relatively) long history of using ChatGPT successfully in many aspects of my life 
+                                                may actually be less common and mundane than I thought. This website isn't intended to be technically impressive; this is a passion 
+                                                project, and my passion is getting people informed and excited about new technology.
+                                            </p>
+                                        </div>
+                                        <img className="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div className="card-body p-0">
+                                    <div className="d-flex align-items-center">
+                                        <div className="p-5">
+                                            <h2 className="fw-bolder">School Projects</h2>
+                                            <p>
+                                                During my time as a college student I have had the opportunity to take a variety of classes, including 3 web development classes where I 
+                                                learned Python/Django, C#/ASP.net, and Vue. I have had experience with database design and technology, and extensive experience with 
+                                                lower-level language coding in C and C++ to create services like parsers and data structures.
+                                            </p>
                                         </div>
                                         <img className="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
                                     </div>
@@ -26,8 +66,13 @@ const Contents = () => {
                                 <div className="card-body p-0">
                                     <div className="d-flex align-items-center">
                                         <div className="p-5">
-                                            <h2 className="fw-bolder">Project Name 2</h2>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
+                                            <h2 className="fw-bolder">HomeLab</h2>
+                                            <p>
+                                                In addition to the above projects, I have a project that is ongoing and will forever be ongoing. I manage my home network, and run several 
+                                                machines that I built myself for different purposes. Currently I have set up a file server running TrueNAS core, and a "compute" or systems 
+                                                server running several VMs and Docker Containers for services like PiHole, and monitoring and updating services like WatchTower and Portainer. 
+                                                I plan to expand this in the future to include many more useful services and eventually take most of my data out of the cloud.
+                                            </p>
                                         </div>
                                         <img className="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
                                     </div>
