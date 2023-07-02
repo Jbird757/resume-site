@@ -27,7 +27,15 @@ const Contents = () => {
                                             <div className="small text-muted">Provo, UT</div>
                                         </div>
                                     </div>
-                                    <div className="col-lg-8"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
+                                    <div className="col-lg-8">
+                                        <div>
+                                            I worked as a Level 2 Help Desk Technician for over two years. During this time, my responsibilities covered many areas, 
+                                            including software troubleshooting and licensing, networking, hardware troubleshooting, and inventory and data management. 
+                                            Most importantly, I gained valueable communication and negotiation skills in this client-facing position. <br></br><br></br>
+                                            <strong>Noteable Events:</strong> I completely redesigned the inventory management system twice, each time increasing accuracy 
+                                            and productivity appreciably.
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -42,7 +50,16 @@ const Contents = () => {
                                             <div className="small text-muted">Riverton, UT (Remote)</div>
                                         </div>
                                     </div>
-                                    <div className="col-lg-8"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
+                                    <div className="col-lg-8">
+                                        <div>
+                                            I worked as a front-end quality assurance engineer, which meant that my work was primarily in the UI of the sites I tested,
+                                            poking and prodding and trying to break them. Outside of my main assignment, I often needed to work with the business analysts 
+                                            and developers together to help resolve misunderstandings and improve communication, which improved efficiency greatly within my team.
+                                            <br></br><br></br>
+                                            <strong>Noteable Events:</strong> I took this internship opportunity to proactively explore career paths. I talked to many people in different 
+                                            roles about their careers, and it was here that I decided I wanted to go into management.
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -57,7 +74,15 @@ const Contents = () => {
                                             <div className="small text-muted">Vietnam and Cambodia</div>
                                         </div>
                                     </div>
-                                    <div className="col-lg-8"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
+                                    <div className="col-lg-8">
+                                        <div>
+                                            I devoted nearly two years of my life to volunteering in Vietnam, Cambodia, and later Houston, TX. I primarily helped individuals overcome 
+                                            the challenges in their lives and live more meaningfully though the principles taught by Jesus Christ. I studied Vietnamese religiously  
+                                            and became fluent, and I also learned a bit of Khmer and Spanish. Other responsibilities during this time included leading free English
+                                            and music classes and acting in what would be considered in a company to be a project manager role with other volunteers. I was also in charge 
+                                            of managing the finances of the entire Vietnam Volunteer Chapter for a few months.
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -80,7 +105,15 @@ const Contents = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-lg-8"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
+                                    <div className="col-lg-8">
+                                        <div>
+                                            I started at BYU as a freshman in 2017 but took a break to volunteer in Southeast Asia (See above). I returned to school in 2021, and soon 
+                                            after was accepted into the Information Systems undergraduate program. I subsequently applied to the Information Systems Management integrated 
+                                            master's program, to which I was also accepted. I will graduate in 2025 and simultaneously earn a bachelor's and master's degree in IS. While at 
+                                            BYU, I participated in several clubs, including the Association for Information Systems (AIS), Association for Computational Mathematics (ACM) and 
+                                            the Aviation club.
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -95,14 +128,14 @@ const Contents = () => {
                                         <h3 className="fw-bolder mb-0"><span className="text-gradient d-inline">Professional Skills</span></h3>
                                     </div>
                                     <div className="row row-cols-1 row-cols-md-3 mb-4">
-                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">SEO/SEM Marketing</div></div>
-                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Statistical Analysis</div></div>
-                                        <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Web Development</div></div>
+                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Project Management</div></div>
+                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Data Analytics</div></div>
+                                        <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Software Development</div></div>
                                     </div>
                                     <div className="row row-cols-1 row-cols-md-3">
                                         <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Network Security</div></div>
-                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Adobe Software Suite</div></div>
-                                        <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">User Interface Design</div></div>
+                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Communication and Negotiation</div></div>
+                                        <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Problem Solving and Decision Making</div></div>
                                     </div>
                                 </div>
                                 <div className="mb-0">
@@ -111,14 +144,14 @@ const Contents = () => {
                                         <h3 className="fw-bolder mb-0"><span className="text-gradient d-inline">Languages</span></h3>
                                     </div>
                                     <div className="row row-cols-1 row-cols-md-3 mb-4">
-                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">HTML</div></div>
-                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">CSS</div></div>
-                                        <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">JavaScript</div></div>
+                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">HTML/CSS</div></div>
+                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Python</div></div>
+                                        <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">React</div></div>
                                     </div>
                                     <div className="row row-cols-1 row-cols-md-3">
-                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Python</div></div>
-                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Ruby</div></div>
-                                        <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Node.js</div></div>
+                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">C++</div></div>
+                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">SQL</div></div>
+                                        <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">And more...</div></div>
                                     </div>
                                 </div>
                             </div>
