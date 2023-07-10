@@ -1,8 +1,9 @@
 import React from "react";
+import ViewPDFButton from './ViewResume';
 
 const Contents = () => {  
     return (
-<div className="container px-5 my-5">
+<div className="container bg-dark px-5 my-5">
         <div className="text-center mb-5">
             <h1 className="display-5 fw-bolder mb-0"><span className="text-gradient d-inline">Resume</span></h1>
         </div>
@@ -10,11 +11,8 @@ const Contents = () => {
                 <div className="col-lg-11 col-xl-9 col-xxl-8">
                     <section>
                         <div className="d-flex align-items-center justify-content-between mb-4">
-                            <h2 className="text-primary fw-bolder mb-0">Experience</h2>
-                            <a className="btn btn-primary px-4 py-3" href="#!">
-                                <div className="d-inline-block bi bi-download me-2"></div>
-                                Download Resume
-                            </a>
+                            <h2 className="text-primary-2 fw-bolder mb-0">Experience</h2>
+                            <ViewPDFButton></ViewPDFButton>
                         </div>
                         <div className="card shadow border-0 rounded-4 mb-5">
                             <div className="card-body p-5">
@@ -88,7 +86,7 @@ const Contents = () => {
                         </div>
                     </section>
                     <section>
-                        <h2 className="text-secondary fw-bolder mb-4">Education</h2>
+                        <h2 className="text-secondary-2 fw-bolder mb-4">Education</h2>
                         <div className="card shadow border-0 rounded-4 mb-5">
                             <div className="card-body p-5">
                                 <div className="row align-items-center gx-5">

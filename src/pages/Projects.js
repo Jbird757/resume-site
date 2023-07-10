@@ -9,7 +9,7 @@ const Home = () => {
     }, []);
 
     return (
-        <div className="d-flex flex-column h-100 bg-light">
+        <div className="d-flex flex-column h-100 bg-dark">
             <div className="flex-shrink-0">
             <Contents />
             </div>

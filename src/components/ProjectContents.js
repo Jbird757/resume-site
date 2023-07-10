@@ -52,6 +52,7 @@ const Contents = () => {
                                     <div className="d-flex align-items-center">
                                         <div className="p-5">
                                             <h2 className="fw-bolder">School Projects</h2>
+                                            <a className='' href='https://github.com/Jbird757'>General GitHub Link</a>
                                             <p>
                                                 During my time as a college student I have had the opportunity to take a variety of classes, including 3 web development classes where I 
                                                 learned Python/Django, C#/ASP.net, and Vue. I have had experience with database design and technology, and extensive experience with 
@@ -85,7 +86,7 @@ const Contents = () => {
             <section className="py-5 bg-gradient-primary-to-secondary text-white">
                 <div className="container px-5 my-5">
                     <div className="text-center">
-                        <h2 className="display-4 fw-bolder mb-4">Let's build something together</h2>
+                        <h2 className="display-4 fw-bolder mb-4">Have questions or want to chat?</h2>
                         <Link className="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" to="/Contact">Contact me</Link>
                     </div>
                 </div>

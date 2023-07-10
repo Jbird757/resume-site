@@ -16,6 +16,7 @@ import Home from './pages/Home';
 import Resume from './pages/Resume';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import ResumePDF from './assets/JLResume.pdf';
 
 
 const router = createBrowserRouter(
@@ -25,6 +26,7 @@ const router = createBrowserRouter(
       <Route path='Resume' element={<Resume/>} />
       <Route path='Projects' element={<Projects/>} />
       <Route path='Contact' element={<Contact/>} />
+      <Route path='ResumePDF' element={<ResumePDF/>} />
     </Route>
   )
 )

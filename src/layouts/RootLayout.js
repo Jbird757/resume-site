@@ -5,10 +5,10 @@ export default function RootLayout() {
     return (
         <div>
             <header>
-                <nav className="navbar navbar-expand-lg navbar-light bg-white py-3">
+                <nav className="navbar navbar-expand-lg navbar-dark bg-dark py-3">
                     <div className="container px-5">
                         <a className="navbar-brand" href="index.html">
-                            <span className="fw-bolder text-primary">Meet Me</span>
+                            <span className="fw-bolder text-primary-2">Meet Me</span>
                         </a>
                         <button
                             className="navbar-toggler"
