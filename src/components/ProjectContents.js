@@ -10,7 +10,7 @@ const Contents = () => {
                         <h1 className="display-5 fw-bolder mb-0"><span className="text-gradient d-inline">Projects</span></h1>
                     </div>
                     <div className="row gx-5 justify-content-center">
-                        <div className="col-lg-11 col-xl-9 col-xxl-8">
+                        <div className="col-lg-11 col-xl-9 col-xxl-11">
                             <div className="card overflow-hidden shadow rounded-4 border-0 mb-5">
                                 <div className="card-body p-0">
                                     <div className="d-flex align-items-center">
