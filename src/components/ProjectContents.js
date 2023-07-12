@@ -1,11 +1,12 @@
 import React from 'react';
+import GPTLogo from '../assets/ChatGPT_logo.svg'
 import { Link } from 'react-router-dom';
 
 const Contents = () => {
     return (
         <div>
-            <section className="py-5">
-                <div className="container px-5 mb-5">
+            <section className="py-3">
+                <div className="container px-3 mb-5">
                     <div className="text-center mb-5">
                         <h1 className="display-5 fw-bolder mb-0"><span className="text-gradient d-inline">Projects</span></h1>
                     </div>
@@ -15,8 +16,7 @@ const Contents = () => {
                                 <div className="card-body p-0">
                                     <div className="d-flex align-items-center">
                                         <div className="p-5">
-                                            <h2 className="fw-bolder" href="https://github.com/Jbird757/resume-site">This Website</h2>
-                                            <a className='' href='https://github.com/Jbird757/resume-site'>GitHub</a>
+                                            <h2 className="fw-bolder" href="https://github.com/Jbird757/resume-site">This Website   <a className="text-gradient" href="https://github.com/Jbird757/resume-site"><i className="bi bi-github"></i></a></h2>
                                             <p>
                                                 I made this website both to be a companion to my resume and to prove to myself that web development was something that I can do outside of 
                                                 class. In making this website, I taught myself React, a popular framework though new to me. To further enhance my learning, I did not take 
@@ -33,7 +33,7 @@ const Contents = () => {
                                 <div className="card-body p-0">
                                     <div className="d-flex align-items-center">
                                         <div className="p-5">
-                                            <h2 className="fw-bolder">ChatGPT How-To</h2>
+                                            <h2 className="fw-bolder">ChatGPT How-To   <a className="text-gradient" href="https://github.com/Jbird757/resume-site"><i className="bi bi-github"></i></a></h2>
                                             <div className="fs-5 fw-light text-muted mb-2">(Under Construction)</div>
                                             <p>
                                                 My next project is a website that teaches how to effectively interact with and use Large Language Models such as ChatGPT 3.5. This 
@@ -43,7 +43,7 @@ const Contents = () => {
                                                 project, and my passion is getting people informed and excited about new technology.
                                             </p>
                                         </div>
-                                        <img className="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                        <img className="img-fluid project-picture" src={ GPTLogo } alt="ChatGPT Logo" />
                                     </div>
                                 </div>
                             </div>
@@ -51,8 +51,7 @@ const Contents = () => {
                                 <div className="card-body p-0">
                                     <div className="d-flex align-items-center">
                                         <div className="p-5">
-                                            <h2 className="fw-bolder">School Projects</h2>
-                                            <a className='' href='https://github.com/Jbird757'>General GitHub Link</a>
+                                            <h2 className="fw-bolder">School Projects   <a className="text-gradient" href="https://github.com/Jbird757"><i className="bi bi-github"></i></a></h2>
                                             <p>
                                                 During my time as a college student I have had the opportunity to take a variety of classes, including 3 web development classes where I 
                                                 learned Python/Django, C#/ASP.net, and Vue. I have had experience with database design and technology, and extensive experience with 

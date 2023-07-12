@@ -40,17 +40,12 @@ function App() {
 export default App;
 
 /*
-Questions:
-
-
 To-do:
-
-Later:
 Get automatic deployments working - Github Actions file
-Get Google fonts to load - yeah maybe not, requires CORS
+Get Google fonts to load - requires CORS
+Create Working Form
 
 Roadmap:
 2. Modify pages to match me - import photos and resume
 3. Change Style
-4. Create working form for contact
 */

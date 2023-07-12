@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
     return (
     <section className="bg-dark-2 py-5">
-        <div className="container px-5">
+        <div className="container px-3">
             <div className="row gx-5 justify-content-center">
                 <div className="col-xxl-8">
                     <div className="text-center my-5">

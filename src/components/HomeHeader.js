@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header className="py-5 bg-dark">
-        <div className="container px-5 pb-5">
+    <header className="py-3 bg-dark">
+        <div className="container px-3 pb-5">
             <div className="row gx-5 align-items-center">
                 <div className="col-xxl-5">
                     <div className="text-center text-xxl-start">
@@ -23,7 +23,7 @@ const Header = () => {
                 <div className="col-xxl-7">
                     <div className="d-flex justify-content-center mt-5 mt-xxl-0">
                         <div className="profile bg-gradient-primary-to-secondary">
-                            <img className="profile-img" src={ProfilePic} alt="..." />
+                            <img className="profile-img" src={ProfilePic} alt="Professional Picture of Me" />
                             <div className="dots-1">
                                 <Dots />
                             </div>

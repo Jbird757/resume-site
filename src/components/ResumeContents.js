@@ -126,14 +126,14 @@ const Contents = () => {
                                         <h3 className="fw-bolder mb-0"><span className="text-gradient d-inline">Professional Skills</span></h3>
                                     </div>
                                     <div className="row row-cols-1 row-cols-md-3 mb-4">
-                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Project Management</div></div>
-                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Data Analytics</div></div>
-                                        <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Software Development</div></div>
+                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light fw-bolder rounded-4 p-3 h-100">Project Management</div></div>
+                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light fw-bolder rounded-4 p-3 h-100">Data Analytics</div></div>
+                                        <div className="col"><div className="d-flex align-items-center bg-light fw-bolder rounded-4 p-3 h-100">Software Development</div></div>
                                     </div>
                                     <div className="row row-cols-1 row-cols-md-3">
-                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Network Security</div></div>
-                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Communication and Negotiation</div></div>
-                                        <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Problem Solving and Decision Making</div></div>
+                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light fw-bolder rounded-4 p-3 h-100">Network Security</div></div>
+                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light fw-bolder rounded-4 p-3 h-100">Communication and Negotiation</div></div>
+                                        <div className="col"><div className="d-flex align-items-center bg-light fw-bolder rounded-4 p-3 h-100">Creative Problem Solving</div></div>
                                     </div>
                                 </div>
                                 <div className="mb-0">
@@ -142,14 +142,14 @@ const Contents = () => {
                                         <h3 className="fw-bolder mb-0"><span className="text-gradient d-inline">Languages</span></h3>
                                     </div>
                                     <div className="row row-cols-1 row-cols-md-3 mb-4">
-                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">HTML/CSS</div></div>
-                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Python</div></div>
-                                        <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">React</div></div>
+                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light fw-bolder rounded-4 p-3 h-100">HTML/CSS</div></div>
+                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light fw-bolder rounded-4 p-3 h-100">Python</div></div>
+                                        <div className="col"><div className="d-flex align-items-center bg-light fw-bolder rounded-4 p-3 h-100">React</div></div>
                                     </div>
                                     <div className="row row-cols-1 row-cols-md-3">
-                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">C++</div></div>
-                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">SQL</div></div>
-                                        <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">And more...</div></div>
+                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light fw-bolder rounded-4 p-3 h-100">C++</div></div>
+                                        <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light fw-bolder rounded-4 p-3 h-100">SQL</div></div>
+                                        <div className="col"><div className="d-flex align-items-center bg-light fw-bolder rounded-4 p-3 h-100">And more...</div></div>
                                     </div>
                                 </div>
                             </div>
