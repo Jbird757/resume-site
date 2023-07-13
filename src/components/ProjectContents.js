@@ -1,6 +1,9 @@
-import React from 'react';
+import React from 'react'
 import GPTLogo from '../assets/ChatGPT_logo.svg'
-import { Link } from 'react-router-dom';
+import Homelab from '../assets/homelab.jpg'
+import Website from '../assets/This website2.png'
+import SchoolProject from '../assets/School Project.png'
+import { Link } from 'react-router-dom'
 
 const Contents = () => {
     return (
@@ -25,7 +28,7 @@ const Contents = () => {
                                                 required the use of CORS.
                                             </p>
                                         </div>
-                                        <img className="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                        <img className="img-fluid project-picture" src={ Website } alt="This website" />
                                     </div>
                                 </div>
                             </div>
@@ -58,7 +61,7 @@ const Contents = () => {
                                                 lower-level language coding in C and C++ to create services like parsers and data structures.
                                             </p>
                                         </div>
-                                        <img className="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                        <img className="img-fluid project-picture" src={ SchoolProject } alt="Colab Notebook" />
                                     </div>
                                 </div>
                             </div>
@@ -74,7 +77,7 @@ const Contents = () => {
                                                 I plan to expand this in the future to include many more useful services and eventually take most of my data out of the cloud.
                                             </p>
                                         </div>
-                                        <img className="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                        <img className="img-fluid project-picture" src={ Homelab } alt="My File Server" />
                                     </div>
                                 </div>
                             </div>

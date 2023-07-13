@@ -16,7 +16,7 @@ import Home from './pages/Home';
 import Resume from './pages/Resume';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-import ResumePDF from './assets/JLResume.pdf';
+//import ErrorBoundary from './components/ErrorBoundary';
 
 
 const router = createBrowserRouter(
@@ -26,7 +26,6 @@ const router = createBrowserRouter(
       <Route path='Resume' element={<Resume/>} />
       <Route path='Projects' element={<Projects/>} />
       <Route path='Contact' element={<Contact/>} />
-      <Route path='ResumePDF' element={<ResumePDF/>} />
     </Route>
   )
 )
@@ -41,11 +40,13 @@ export default App;
 
 /*
 To-do:
-Get automatic deployments working - Github Actions file
-Get Google fonts to load - requires CORS
-Create Working Form
+4. Project Page Photos
+5. Projects page CSS
+6. Front Page Photo & icon
+7. Binary to Text on front page
+8. Final Review
 
-Roadmap:
-2. Modify pages to match me - import photos and resume
-3. Change Style
+Roadmap
+Get automatic deployments working - Github Actions file
+Create Working Form
 */

@@ -14,9 +14,7 @@ const About = () => {
                             Fortunately for me, may journey has led me to have many experiences with many people, cultures, and professionals all around the world, and now I believe I've
                             finally found where I'm supposed to be - at the intersection between people and technology.
                             <br></br><br></br>
-                            2nd Paragraph here
-                            <br></br><br></br>
-                            Technology has always been my hobby, but my real passion is knowing that I get to work with others who share my enthusiasm for educating, 
+                            Technology has always been my hobby, but the real excitement for me is knowing that I get to work with others who share my enthusiasm for educating, 
                             uplifting, and helping others engage with technology, and bring the world a little closer together.
                         </p>
                         <div className="d-flex justify-content-center fs-2 gap-4">
