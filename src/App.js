@@ -40,11 +40,10 @@ export default App;
 
 /*
 To-do:
-4. Project Page Photos
-5. Projects page CSS
 6. Front Page Photo & icon
 7. Binary to Text on front page
 8. Final Review
+9. ReadMe
 
 Roadmap
 Get automatic deployments working - Github Actions file
