@@ -42,8 +42,8 @@ export default App;
 To-do:
 6. Front Page Photo & icon
 7. Binary to Text on front page
-8. Final Review
-9. ReadMe
+8. Resume
+9. Final Review
 
 Roadmap
 Get automatic deployments working - Github Actions file
