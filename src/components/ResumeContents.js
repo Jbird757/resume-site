@@ -42,7 +42,7 @@ const Contents = () => {
                                 <div className="row align-items-center gx-5">
                                     <div className="col text-center text-lg-start mb-4 mb-lg-0">
                                         <div className="bg-dark p-4 rounded-4">
-                                            <div className="text-primary-2 fw-bolder mb-2">Summer 2023</div>
+                                            <div className="text-primary-2 fw-bolder mb-2">2023</div>
                                             <div className="text-light small fw-bolder">Quality Assurance Engineer (Intern)</div>
                                             <div className="small text-light fw-light">Church of Jesus Christ of Latter-day Saints</div>
                                             <div className="small text-light fw-light">Riverton, UT (Remote)</div>

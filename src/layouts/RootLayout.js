@@ -7,7 +7,7 @@ export default function RootLayout() {
             <header>
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark py-3">
                     <div className="container px-5">
-                        <a className="navbar-brand" href="index.html">
+                        <a className="navbar-brand" href="/">
                             <span className="fw-bolder text-primary-2">Meet Me</span>
                         </a>
                         <button
@@ -32,9 +32,9 @@ export default function RootLayout() {
                                 <li className="nav-item">
                                     <NavLink className='nav-link' to='/Projects'>Projects</NavLink>
                                 </li>
-                                <li className="nav-item">
+                                {/* <li className="nav-item">
                                     <NavLink className='nav-link' to='/Contact'>Contact</NavLink>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>
