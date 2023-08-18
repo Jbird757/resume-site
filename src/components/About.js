@@ -11,7 +11,7 @@ const About = () => {
                         <p className="lead fw-light text-white mb-4">I'm Jay Lowry, and I'm passionate about people-first technology to make a better world.</p>
                         <p className="text-light">
                             Growing up in a relatively small town in the Midwest, it was my understanding that if you wanted to do something in STEM, you would work as a mechanical engineer.
-                            Fortunately for me, may journey has led me to have many experiences with many people, cultures, and professionals all around the world, and now I believe I've
+                            Fortunately for me, my journey has led me to have many experiences with many people, cultures, and professionals all around the world, and now I believe I've
                             finally found where I'm supposed to be - at the intersection between people and technology.
                             <br></br><br></br>
                             Technology has always been my hobby, but the real excitement for me is knowing that I get to work with others who share my enthusiasm for educating, 

@@ -40,12 +40,8 @@ export default App;
 
 /*
 To-do:
-6. Front Page Photo & icon
-7. Binary to Text on front page
-8. Resume
-9. Final Review
-
-Roadmap
-Get automatic deployments working - Github Actions file
-Create Working Form
+6. Get automatic deployments working - Github Actions file
+7. Photo
+8. Binary to Text on front page
+9. Get www to work
 */

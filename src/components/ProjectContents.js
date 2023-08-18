@@ -3,7 +3,7 @@ import GPTLogo from '../assets/ChatGPT_logo.svg'
 import Homelab from '../assets/homelab.jpg'
 import Website from '../assets/This website2.png'
 import SchoolProject from '../assets/School Project.png'
-import { Link } from 'react-router-dom'
+//import { Link } from 'react-router-dom'
 
 const Contents = () => {
     return (
@@ -23,9 +23,8 @@ const Contents = () => {
                                             <p>
                                                 I made this website both to be a companion to my resume and to prove to myself that web development was something that I can do outside of 
                                                 class. In making this website, I taught myself React, a popular framework though new to me. To further enhance my learning, I did not take 
-                                                any shortcuts when making this website, and manually configured everything from the machine it's running on to the CI/CD pipeline with Github Actions. 
-                                                The most challenging parts of making this website were configuring Github Actions, another technology I taught myself, and importing Google Fonts, which 
-                                                required the use of CORS.
+                                                any shortcuts when making this website, and manually configured everything from the machine it's running on to the CI/CD pipeline with GitHub Actions. 
+                                                The most challenging parts of making this website were configuring GitHub Actions, another technology I taught myself.
                                             </p>
                                         </div>
                                         <img className="img-fluid project-picture" src={ Website } alt="This website" />
@@ -56,7 +55,7 @@ const Contents = () => {
                                         <div className="p-5">
                                             <h2 className="fw-bolder">School Projects   <a className="text-gradient" href="https://github.com/Jbird757"><i className="bi bi-github"></i></a></h2>
                                             <p>
-                                                During my time as a college student I have had the opportunity to take a variety of classes, including 3 web development classes where I 
+                                                During my time as a college student, I have had the opportunity to take a variety of classes, including 3 web development classes where I 
                                                 learned Python/Django, C#/ASP.net, and Vue. I have had experience with database design and technology, and extensive experience with 
                                                 lower-level language coding in C and C++ to create services like parsers and data structures.
                                             </p>
@@ -71,9 +70,9 @@ const Contents = () => {
                                         <div className="p-5">
                                             <h2 className="fw-bolder">HomeLab</h2>
                                             <p>
-                                                In addition to the above projects, I have a project that is ongoing and will forever be ongoing. I manage my home network, and run several 
+                                                In addition to the above projects, I have a project that is ongoing and will forever be ongoing. I manage my home network and run several 
                                                 machines that I built myself for different purposes. Currently I have set up a file server running TrueNAS core, and a "compute" or systems 
-                                                server running several VMs and Docker Containers for services like PiHole, and monitoring and updating services like WatchTower and Portainer. 
+                                                server running several VMs and Docker Containers for services like PiHole and monitoring and updating services like WatchTower and Portainer. 
                                                 I plan to expand this in the future to include many more useful services and eventually take most of my data out of the cloud.
                                             </p>
                                         </div>
@@ -89,7 +88,8 @@ const Contents = () => {
                 <div className="container px-5 my-5">
                     <div className="text-center">
                         <h2 className="display-4 fw-bolder mb-4">Have questions or want to chat?</h2>
-                        <Link className="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" to="/Contact">Contact me</Link>
+                        <a className="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="https://www.linkedin.com/in/jay-lowry/">Contact me on LinkedIn</a>
+                        {/* <Link className="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" to="/Contact">Contact me</Link> */}
                     </div>
                 </div>
             </section>
