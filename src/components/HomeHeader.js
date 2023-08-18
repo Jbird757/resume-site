@@ -12,8 +12,8 @@ const Header = () => {
                     <div className="text-center text-xxl-start">
                         <div className="badge bg-gradient-primary-to-secondary text-white mb-4"><div className="text-uppercase">Development &middot; Deployment &middot; Implement</div></div>
                         
-                        <h1 className=" fw-bolder"><div className="text-gradient d-inline">At the midpoint between man and mainframe</div></h1>
-                        <div className="fs-3 fw-light text-light mb-5">I work with people to create inspired software solutions</div>
+                        <h1 className=" fw-bolder"><div className="text-gradient d-inline">Bringing innovation to everyone</div></h1>
+                        <div className="fs-3 fw-light text-light mb-5">I work with people to create inspired technology solutions</div>
                         <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                             <Link className="btn-2 btn-primary-2 btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" to='/Resume'>Resume</Link>
                             <Link className="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" to="/Projects">Projects</Link>
