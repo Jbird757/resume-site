@@ -44,7 +44,7 @@ const Contents = () => {
                                 <div className="row align-items-center gx-5">
                                     <div className="col text-center text-lg-start mb-4 mb-lg-0">
                                         <div className="bg-dark p-4 rounded-4">
-                                            <div className="text-primary-2 fw-bolder mb-2">2021-Present</div>
+                                            <div className="text-primary-2 fw-bolder mb-2">2021-2023</div>
                                             <div className="text-light small fw-bolder">Help Desk Technician</div>
                                             <div className="small text-light fw-light">BYU Department of Physics and Astronomy</div>
                                             <div className="small text-light fw-light">Provo, UT</div>
