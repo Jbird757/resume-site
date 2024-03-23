@@ -1,8 +1,3 @@
-# Configure Terraform provider
-provider "aws" {
-  required_version = ">= 4.0.0"
-}
-
 # Define the region where you want to create the bucket
 variable "aws_region" {
   type = string
