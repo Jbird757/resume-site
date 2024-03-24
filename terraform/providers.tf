@@ -7,10 +7,10 @@ terraform {
   }
 
   backend "s3" {
-    bucket         	    = "personal-site-tf-backend"
-    key                 = "state/terraform.tfstate"
-    region         	    = "us-east-1"
-    encrypt        	    = true
-    dynamodb_table      = "personal-site-tf-lock"
+    bucket         = "personal-site-tf-backend"
+    key            = "state/terraform.tfstate"
+    region         = "us-east-1"
+    encrypt        = true
+    dynamodb_table = "personal-site-tf-lock"
   }
 }
