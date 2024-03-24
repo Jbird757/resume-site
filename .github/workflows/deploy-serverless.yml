@@ -51,6 +51,10 @@ jobs:
               working-directory: ./terraform
               run: terraform validate
 
+            - name: Force Unlock
+              working-directory: ./terraform
+              run: terraform state force-unlock
+
             - name: Terraform Plan
               id: plan
               working-directory: ./terraform
