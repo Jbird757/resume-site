@@ -6,7 +6,7 @@ variable "aws_region" {
 
 # Create a private S3 bucket
 resource "aws_s3_bucket" "private_bucket" {
-  bucket = "terraforttttttttt" # Replace with your desired name (must be lowercase)
+  bucket = "terraformmmmmmmmm" # Replace with your desired name (must be lowercase)
 
   tags = {
     Name = "Terraform Private Bucket"
