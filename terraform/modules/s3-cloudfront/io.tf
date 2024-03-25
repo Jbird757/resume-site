@@ -10,3 +10,9 @@ variable common_tags {
     description = "Map of tags to be applied to all resources"
     default = {}
 }
+
+variable alternate_domains {
+    type = list(string)
+    description = "Alternate domains to add to the ACM certificate"
+    default = []
+}

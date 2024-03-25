@@ -1,6 +1,6 @@
 #------------------------------------------------ S3 Endpoint ------------------------------------------------#
 
-resource aws_s3_bucket" "site_build {
+resource aws_s3_bucket site_build {
   bucket = "mybucket"
 
   tags = var.common_tags
@@ -30,7 +30,7 @@ data aws_iam_policy_document allow_access_from_cloudfront {
 
     condition {
       StringEquals {
-        AWS:SourceArn = aws_cloudfront_distribution.your_distribution_name.arn
+        AWS:SourceArn = aws_cloudfront_distribution.s3_distribution.arn
       }
     }
   }
@@ -48,7 +48,7 @@ resource aws_cloudfront_distribution s3_distribution {
   origin {
     domain_name              = aws_s3_bucket.b.bucket_regional_domain_name
     origin_access_control_id = aws_cloudfront_origin_access_control.s3_oac.id
-    origin_id                = local.s3_origin_id
+    #origin_id                = local.s3_origin_id
   }
 
   enabled             = true
@@ -62,12 +62,10 @@ resource aws_cloudfront_distribution s3_distribution {
     prefix          = "myprefix"
   }
 
-  aliases = ["mysite.example.com", "yoursite.example.com"] #Look into this
-
   default_cache_behavior {
     allowed_methods  = ["DELETE", "GET", "HEAD", "OPTIONS", "PATCH", "POST", "PUT"]
     cached_methods   = ["GET", "HEAD"]
-    target_origin_id = local.s3_origin_id
+    #target_origin_id = local.s3_origin_id
 
     viewer_protocol_policy = "redirect-to-https"
     min_ttl                = 0
@@ -103,6 +101,7 @@ resource aws_cloudfront_origin_access_control s3_oac { #CloudFront OAC
 
 resource "aws_acm_certificate" "site_tls_cert" {
   domain_name       = "example.com"
+  subject_alternative_names = var.alternate_domains
   validation_method = "DNS"
 
   tags = var.common_tags
