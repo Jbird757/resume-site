@@ -6,7 +6,7 @@ resource aws_s3_bucket site_build {
   tags = var.common_tags
 }
 
-resource aws_s3_bucket_policy allow_access_from_another_account {
+resource aws_s3_bucket_policy allow_access_from_cloudfront {
   bucket = aws_s3_bucket.site_build.id
   policy = data.aws_iam_policy_document.allow_access_from_cloudfront.json
 }
@@ -38,17 +38,13 @@ data aws_iam_policy_document allow_access_from_cloudfront {
 
 #------------------------------------------------ CloudFront Distribution ------------------------------------------------#
 
-locals {
-  s3_origin_id = "myS3Origin" #Look into this
-}
-
 resource aws_cloudfront_distribution s3_distribution {
   depends_on =[aws_s3_bucket.site_build, aws_acm_certificate.site_tls_cert]
 
   origin {
-    domain_name              = aws_s3_bucket.b.bucket_regional_domain_name
+    domain_name              = aws_s3_bucket.site_build.bucket_regional_domain_name
     origin_access_control_id = aws_cloudfront_origin_access_control.s3_oac.id
-    #origin_id                = local.s3_origin_id
+    origin_id                = aws_s3_bucket.site_build.bucket_regional_domain_name
   }
 
   enabled             = true
@@ -65,7 +61,7 @@ resource aws_cloudfront_distribution s3_distribution {
   default_cache_behavior {
     allowed_methods  = ["DELETE", "GET", "HEAD", "OPTIONS", "PATCH", "POST", "PUT"]
     cached_methods   = ["GET", "HEAD"]
-    #target_origin_id = local.s3_origin_id
+    target_origin_id = aws_s3_bucket.site_build.bucket_regional_domain_name
 
     viewer_protocol_policy = "redirect-to-https"
     min_ttl                = 0
