@@ -62,10 +62,7 @@ jobs:
 
             - name: Get S3 Bucket Name
               working-directory: ./terraform
-              run: echo "bucket-name=$(terraform output module_bucket_name)" >> $GITHUB_OUTPUT
-
-            - name: Set S3 Bucket Name as Environment Variable
-              run: echo "BUCKET_NAME=${{ steps.bucket_name.outputs.name }}" >> $GITHUB_ENV
+              run: echo "BUCKET_ARN=$(terraform output module_bucket_arn)" >> $GITHUB_ENV
 
             - name: Upload Build Directory to S3
-              run: aws s3 sync ./build s3://${{ env.BUCKET_NAME }}/
+              run: aws s3 cp --recursive ./build s3://${{ env.BUCKET_ARN }}/
