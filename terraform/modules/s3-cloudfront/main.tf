@@ -1,23 +1,23 @@
 #------------------------------------------------ S3 Endpoint ------------------------------------------------#
 
-resource aws_s3_bucket site_build {
+resource "aws_s3_bucket" "site_build" {
   bucket = "mybucket"
 
   tags = var.common_tags
 }
 
-resource aws_s3_bucket_policy allow_access_from_cloudfront {
+resource "aws_s3_bucket_policy" "allow_access_from_cloudfront" {
   bucket = aws_s3_bucket.site_build.id
   policy = data.aws_iam_policy_document.allow_access_from_cloudfront.json
 }
 
-data aws_iam_policy_document allow_access_from_cloudfront {
+data "aws_iam_policy_document" "allow_access_from_cloudfront" {
   depends_on = [aws_cloudfront_distribution.s3_distribution]
 
   statement {
     principals {
-      type = "AWS"
-      service = "cloudfront.amazonaws.com"
+      type    = "AWS"
+      identifiers = [aws_cloudfront_distribution.s3_distribution.arn]
     }
 
     actions = [
@@ -28,18 +28,18 @@ data aws_iam_policy_document allow_access_from_cloudfront {
       "${aws_s3_bucket.site_build.arn}/*",
     ]
 
-    condition {
-      StringEquals {
-        AWS:SourceArn = aws_cloudfront_distribution.s3_distribution.arn
-      }
-    }
+    # condition {
+    #   StringEquals {
+    #     "AWS:SourceArn" = aws_cloudfront_distribution.s3_distribution.arn
+    #   }
+    # }
   }
 }
 
 #------------------------------------------------ CloudFront Distribution ------------------------------------------------#
 
-resource aws_cloudfront_distribution s3_distribution {
-  depends_on =[aws_s3_bucket.site_build, aws_acm_certificate.site_tls_cert]
+resource "aws_cloudfront_distribution" "s3_distribution" {
+  depends_on = [aws_s3_bucket.site_build, aws_acm_certificate.site_tls_cert]
 
   origin {
     domain_name              = aws_s3_bucket.site_build.bucket_regional_domain_name
@@ -85,7 +85,7 @@ resource aws_cloudfront_distribution s3_distribution {
   }
 }
 
-resource aws_cloudfront_origin_access_control s3_oac { #CloudFront OAC
+resource "aws_cloudfront_origin_access_control" "s3_oac" { #CloudFront OAC
   name                              = "s3_oac"
   description                       = "OAC to connect s3_distribution with the S3 bucket site_build"
   origin_access_control_origin_type = "s3"
@@ -96,9 +96,9 @@ resource aws_cloudfront_origin_access_control s3_oac { #CloudFront OAC
 #------------------------------------------------ ACM Certificate ------------------------------------------------#
 
 resource "aws_acm_certificate" "site_tls_cert" {
-  domain_name       = "example.com"
+  domain_name               = var.site_domain_name
   subject_alternative_names = var.alternate_domains
-  validation_method = "DNS"
+  validation_method         = "DNS"
 
   tags = var.common_tags
 

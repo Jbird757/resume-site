@@ -1,10 +1,10 @@
 locals {
-    common_tags = {
-        app = "personal-site"
-    }
+  common_tags = {
+    app = "personal-site"
+  }
 }
 
 variable "aws_region" {
   type    = string
-  default = "us-east-1" 
+  default = "us-east-1"
 }
