@@ -1,7 +1,7 @@
 #------------------------------------------------ S3 Endpoint ------------------------------------------------#
 
 resource "aws_s3_bucket" "site_build" {
-  bucket = "mybucket"
+  bucket = var.bucket_name
 
   tags = var.common_tags
 }
@@ -15,24 +15,23 @@ data "aws_iam_policy_document" "allow_access_from_cloudfront" {
   depends_on = [aws_cloudfront_distribution.s3_distribution]
 
   statement {
+
     principals {
-      type    = "AWS"
-      identifiers = [aws_cloudfront_distribution.s3_distribution.arn]
+      type = "Service"
+      identifiers = ["cloudfront.amazonaws.com"]
     }
 
-    actions = [
-      "s3:GetObject",
-    ]
+    actions = ["s3:GetObject"]
 
     resources = [
-      "${aws_s3_bucket.site_build.arn}/*",
+      "${aws_s3_bucket.site_build.arn}/*"
     ]
 
-    # condition {
-    #   StringEquals {
-    #     "AWS:SourceArn" = aws_cloudfront_distribution.s3_distribution.arn
-    #   }
-    # }
+    condition {
+      test = "StringEquals"
+      variable = "AWS:SourceArn"
+      values = ["${aws_cloudfront_distribution.s3_distribution.arn}"]
+    }
   }
 }
 
@@ -49,14 +48,8 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
 
   enabled             = true
   is_ipv6_enabled     = true
-  comment             = "Some comment"
+  comment             = "CloudFront Distribution for Personal Site"
   default_root_object = "index.html"
-
-  logging_config {
-    include_cookies = false
-    bucket          = "mylogs.s3.amazonaws.com"
-    prefix          = "myprefix"
-  }
 
   default_cache_behavior {
     allowed_methods  = ["DELETE", "GET", "HEAD", "OPTIONS", "PATCH", "POST", "PUT"]
@@ -67,6 +60,14 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
     min_ttl                = 0
     default_ttl            = 3600
     max_ttl                = 86400
+
+    forwarded_values {
+      query_string = false
+
+      cookies {
+        forward = "none"
+      }
+    }
   }
 
   price_class = "PriceClass_100"
@@ -82,6 +83,7 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
 
   viewer_certificate {
     acm_certificate_arn = aws_acm_certificate.site_tls_cert.arn
+    ssl_support_method = "sni-only"
   }
 }
 

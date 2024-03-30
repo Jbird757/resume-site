@@ -2,9 +2,12 @@ locals {
   common_tags = {
     app = "personal-site"
   }
+  bucket_name = "jel-personal-site"
+  domain = "jaylowry.com"
+  alt_domains = ["www.jaylowry.com"]
+  aws-region = "us-east-1"
 }
 
-variable "aws_region" {
-  type    = string
-  default = "us-east-1"
+output module_bucket_name {
+  value = module.personal-site.bucket_name
 }
