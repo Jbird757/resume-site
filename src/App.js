@@ -40,7 +40,6 @@ export default App;
 
 /*
 To-do:
-6. Get automatic deployments working - Github Actions file
 7. Photo
 8. Binary to Text on front page
 */
