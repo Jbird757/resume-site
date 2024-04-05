@@ -51,6 +51,8 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
   comment             = "CloudFront Distribution for Personal Site"
   default_root_object = "index.html"
 
+  aliases = local.all_domain_names
+
   default_cache_behavior {
     allowed_methods  = ["DELETE", "GET", "HEAD", "OPTIONS", "PATCH", "POST", "PUT"]
     cached_methods   = ["GET", "HEAD"]
@@ -68,6 +70,12 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
         forward = "none"
       }
     }
+  }
+  
+  custom_error_response {
+    error_code = 403
+    response_code = 200
+    response_page_path = "/index.html"
   }
 
   price_class = "PriceClass_100"

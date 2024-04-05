@@ -1,3 +1,7 @@
+locals {
+  all_domain_names = concat([var.site_domain_name], var.alternate_domains)
+}
+
 #--------------------------------------- Inputs to the Module ---------------------------------------#
 
 variable "bucket_name" {
@@ -22,7 +26,7 @@ variable "alternate_domains" {
   default     = []
 }
 
-#--------------------------------------- Inputs to the Module ---------------------------------------#
+#--------------------------------------- Inputs from the Module ---------------------------------------#
 
 output "bucket_name" {
   value = aws_s3_bucket.site_build.id
