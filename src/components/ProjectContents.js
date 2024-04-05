@@ -21,10 +21,10 @@ const Contents = () => {
                                         <div className="p-5">
                                             <h2 className="fw-bolder" href="https://github.com/Jbird757/resume-site">This Website   <a className="text-gradient" href="https://github.com/Jbird757/resume-site"><i className="bi bi-github"></i></a></h2>
                                             <p>
-                                                I made this website both to be a companion to my resume and to prove to myself that web development was something that I can do outside of 
-                                                class. In making this website, I taught myself React, a popular framework though new to me. To further enhance my learning, I did not take 
-                                                any shortcuts when making this website, and manually configured everything from the machine it's running on to the CI/CD pipeline with GitHub Actions. 
-                                                The most challenging parts of making this website were configuring GitHub Actions, another technology I taught myself.
+                                                I made this website both to be a companion to my resume and to showcase much of what I have learned during my years in school and in the workforce. The goal for this website was not only to create 
+                                                a website, but to do it in a way that used professional best practices in hosting, security, and redundancy. This site is hosted serverlessly on AWS, and previous versions of the site were hosted on a 
+                                                configured virtual machine. This website is completely automated using Terraform and GitHub Actions. Technologies that I learned or expanded my knowledge of as part of this project: React, GitHub Actions, 
+                                                Terraform, serverless web services, AWS and AWS CLI, security through OIDC, firewall and web server management, and more. Click on the GitHub logo to view the repository.
                                             </p>
                                         </div>
                                         <img className="img-fluid project-picture" src={ Website } alt="This website" />
@@ -35,14 +35,12 @@ const Contents = () => {
                                 <div className="card-body p-0">
                                     <div className="d-flex align-items-center">
                                         <div className="p-5">
-                                            <h2 className="fw-bolder">ChatGPT How-To   <a className="text-gradient" href="https://github.com/Jbird757/resume-site"><i className="bi bi-github"></i></a></h2>
+                                            <h2 className="fw-bolder">Terraform Serverless Website Module   <a className="text-gradient" href="https://github.com/Jbird757/AWS-Serverless-Static-Website-TF-Module.git"><i className="bi bi-github"></i></a></h2>
                                             <div className="fs-5 fw-light text-muted mb-2">(Under Construction)</div>
                                             <p>
-                                                My next project is a website that teaches how to effectively interact with and use Large Language Models such as ChatGPT 3.5. This 
-                                                idea came to me as I sat through a long company meeting that was hosted by supposed experts on the subject, and watched them get nearly 
-                                                everything wrong. I realized that my experience and (relatively) long history of using ChatGPT successfully in many aspects of my life 
-                                                may actually be less common and mundane than I thought. This website isn't intended to be technically impressive; this is a passion 
-                                                project, and my passion is getting people informed and excited about new technology.
+                                                My next project is a Terraform Module that sets up an entire serverless website on AWS complete with encryption and security best practices. I noticed when I was building my personal site that I couldn't find a 
+                                                module that fit what I needed to do, especially since S3 Bucket ACLs are deprecated and CloudFront OAC is the new standard, so I decided to make my own. I hope that others besides me can benefit from this module, 
+                                                so feel free to check it out at the GitHub link above.
                                             </p>
                                         </div>
                                         <img className="img-fluid project-picture" src={ GPTLogo } alt="ChatGPT Logo" />
@@ -71,7 +69,7 @@ const Contents = () => {
                                             <h2 className="fw-bolder">HomeLab</h2>
                                             <p>
                                                 In addition to the above projects, I have a project that is ongoing and will forever be ongoing. I manage my home network and run several 
-                                                machines that I built myself for different purposes. Currently I have set up a file server running TrueNAS core, and a "compute" or systems 
+                                                machines that I built myself for different purposes. Currently I have set up a file server running TrueNAS Scale, and a "compute" or systems 
                                                 server running several VMs and Docker Containers for services like PiHole and monitoring and updating services like WatchTower and Portainer. 
                                                 I plan to expand this in the future to include many more useful services and eventually take most of my data out of the cloud.
                                             </p>
