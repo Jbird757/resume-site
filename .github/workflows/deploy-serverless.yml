@@ -1,0 +1,68 @@
+name: Serverless Deployment
+
+on:
+    push:
+        branches:
+            - serverless
+
+permissions:
+  id-token: write # This is required for requesting the JWT
+  contents: read  # This is required for actions/checkout
+
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout Code
+              uses: actions/checkout@v4
+
+            - name: Configure AWS Credentials
+              uses: aws-actions/configure-aws-credentials@v4
+              with: 
+                role-to-assume: ${{ secrets.OIDC_IAM_ROLE_ARN }}
+                role-session-name: PersonalSiteDeployment
+                aws-region: ${{ secrets.AWS_REGION }}
+
+            - name: Install Node
+              uses: actions/setup-node@v4
+              with: 
+                node-version: 20
+
+            - name: Install Dependencies
+              run: npm ci
+
+            # - name: Test Scripts - Haven't configured testing for scripts, might be nice to do sometime
+            #   run: npm test
+            
+            - name: Build Code
+              run: npm run build
+
+            - name: Setup Terraform
+              uses: hashicorp/setup-terraform@v3
+              with:
+                terraform_version: "1.7.4"
+
+            - name: Terraform Init
+              working-directory: ./terraform
+              run: terraform init
+
+            - name: Terraform Validate
+              working-directory: ./terraform
+              run: terraform validate
+
+            - name: Terraform Plan
+              id: plan
+              working-directory: ./terraform
+              run: terraform plan
+
+            - name: Terraform Apply
+              working-directory: ./terraform
+              run: terraform apply -auto-approve
+
+            - name: Get S3 Bucket Name
+              working-directory: ./terraform
+              run: echo "BUCKET_NAME=$(terraform output module_bucket_name)" >> $GITHUB_ENV
+
+            - name: Upload Build Directory to S3
+              run: aws s3 cp ./build s3://${{ env.BUCKET_NAME }}/ --recursive
