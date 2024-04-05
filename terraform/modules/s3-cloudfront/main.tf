@@ -2,7 +2,7 @@
 
 resource "aws_s3_bucket" "site_build" {
   bucket = var.bucket_name
-
+  force_destroy = true
   tags = var.common_tags
 }
 
@@ -71,7 +71,7 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
       }
     }
   }
-  
+
   custom_error_response {
     error_code = 403
     response_code = 200
