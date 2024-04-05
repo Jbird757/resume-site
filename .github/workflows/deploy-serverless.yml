@@ -3,7 +3,7 @@ name: Serverless Deployment
 on:
     push:
         branches:
-            - serverless
+            - master
 
 permissions:
   id-token: write # This is required for requesting the JWT
