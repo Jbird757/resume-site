@@ -1,5 +1,4 @@
 import React from 'react'
-import GPTLogo from '../assets/ChatGPT_logo.svg'
 import tflogo from '../assets/terraform.png'
 import Homelab from '../assets/homelab.jpg'
 import Website from '../assets/This website2.png'
