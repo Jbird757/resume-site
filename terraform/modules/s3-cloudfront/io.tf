@@ -26,7 +26,7 @@ variable "alternate_domains" {
   default     = []
 }
 
-#--------------------------------------- Inputs from the Module ---------------------------------------#
+#--------------------------------------- Outputs from the Module ---------------------------------------#
 
 output "bucket_name" {
   value = aws_s3_bucket.site_build.id
