@@ -36,7 +36,6 @@ const Contents = () => {
                                     <div className="d-flex align-items-center">
                                         <div className="p-5">
                                             <h2 className="fw-bolder">Terraform Serverless Website Module   <a className="text-gradient" href="https://github.com/Jbird757/AWS-Serverless-Static-Website-TF-Module.git"><i className="bi bi-github"></i></a></h2>
-                                            <div className="fs-5 fw-light text-muted mb-2">(Under Construction)</div>
                                             <p>
                                                 My next project is a Terraform Module that sets up an entire serverless website on AWS complete with encryption and security best practices. I noticed when I was building my personal site that I couldn't find a 
                                                 module that fit what I needed to do, especially since S3 Bucket ACLs are deprecated and CloudFront OAC is the new standard, so I decided to make my own. I hope that others besides me can benefit from this module, 
