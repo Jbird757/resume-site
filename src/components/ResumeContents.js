@@ -19,10 +19,36 @@ const Contents = () => {
                                 <div className="row align-items-center gx-5">
                                     <div className="col text-center text-lg-start mb-4 mb-lg-0">
                                         <div className="bg-dark p-4 rounded-4">
+                                            <div className="text-primary-2 fw-bolder mb-2">2023-Present</div>
+                                            <div className="text-light small fw-bolder">Cloud Infrasstructure Engineer</div>
+                                            <div className="small text-light fw-light">Brigham Young University</div>
+                                            <div className="small text-light fw-light">Provo, UT</div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-9">
+                                        <div className="text-light">
+                                            As a cloud infrastructure engineer, I helped manage the networks and resources in AWS and Azure. I mostly worked on cloud account and user management, and in my down time 
+                                            when not fulfilling customer orders I worked on automating our internal processes using Python and the AWS CLI to increase speed of tasks and decrease the time of tedious processes. 
+                                            My most used tools in this position were Python, Terraform, IAM, and Microsoft Entra. I also had to be framiliar with a wide variety of AWS and Azure services, as I regularly 
+                                            helped our customers (who were mostly developers) troubleshoot problems.
+                                            <br></br><br></br>
+                                            <strong>Notable Events:</strong> I earned my AWS Solutions Architect certification while working here. I also had the opportunity to lead a team to research 
+                                                AWS Control Tower for use in our organization. I not only gained knowledge and skills related to cloud engineering, but also gained valueable experience 
+                                                working with a team in industry. 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="bg-dark-2 card shadow border-0 rounded-4 mb-5">
+                            <div className="card-body p-5">
+                                <div className="row align-items-center gx-5">
+                                    <div className="col text-center text-lg-start mb-4 mb-lg-0">
+                                        <div className="bg-dark p-4 rounded-4">
                                             <div className="text-primary-2 fw-bolder mb-2">2023</div>
                                             <div className="text-light small fw-bolder">Quality Assurance Engineer (Intern)</div>
                                             <div className="small text-light fw-light">Church of Jesus Christ of Latter-day Saints</div>
-                                            <div className="small text-light fw-light">Riverton, UT (Remote)</div>
+                                            <div className="small text-light fw-light">Riverton, UT</div>
                                         </div>
                                     </div>
                                     <div className="col-lg-9">
@@ -33,7 +59,7 @@ const Contents = () => {
                                             and developers together to help resolve misunderstandings and improve communication, which improved efficiency greatly within my team.
                                             <br></br><br></br>
                                             <strong>Notable Events:</strong> I took this internship opportunity to proactively explore career paths. I talked to many people in different 
-                                            roles about their careers, and it was here that I decided I wanted to go into management.
+                                            roles about their careers, and it was here that I decided that going into management would be a rewarding career path.
                                         </div>
                                     </div>
                                 </div>
@@ -68,7 +94,7 @@ const Contents = () => {
                                     <div className="col text-center text-lg-start mb-4 mb-lg-0">
                                         <div className="bg-dark p-4 rounded-4">
                                             <div className="text-primary-2 fw-bolder mb-2">2018-2020</div>
-                                            <div className="text-light small fw-bolder">Volunteer</div>
+                                            <div className="text-light small fw-bolder">Volunteer Representative</div>
                                             <div className="small text-light fw-light">Church of Jesus Christ of Latter-day Saints</div>
                                             <div className="small text-light fw-light">Vietnam and Cambodia</div>
                                         </div>
