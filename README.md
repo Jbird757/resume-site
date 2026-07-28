@@ -49,12 +49,6 @@ terraform init
 terraform plan
 ```
 
-#### 📌 Viewing All Application Resources in AWS Console (100% Free)
-All infrastructure resources are automatically tagged with `Application = "personal-site"` and managed via an **AWS Resource Group**:
-1. Open the **AWS Management Console**.
-2. Navigate to **Resource Groups & Tag Editor** $\rightarrow$ **Saved Resource Groups**.
-3. Select **`personal-site-resources`** to view all associated S3 buckets, CloudFront distributions, ACM certificates, and IAM roles in one unified dashboard.
-
 ---
 
 ## 📄 Repository Reports
