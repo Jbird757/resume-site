@@ -1,6 +1,6 @@
 import React from 'react';
-import { ReactComponent as Dots } from '../assets/dots.svg';
-import ProfilePic from '../assets/Lowry_Jay_Background_Removed.png'
+import Dots from '../assets/dots.svg?react';
+import ProfilePic from '../assets/Lowry_Jay_Background_Removed.png';
 import { Link } from 'react-router-dom';
 
 const Header = () => {

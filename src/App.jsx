@@ -15,7 +15,6 @@ import RootLayout from './layouts/RootLayout';
 import Home from './pages/Home';
 import Resume from './pages/Resume';
 import Projects from './pages/Projects';
-import Contact from './pages/Contact';
 //import ErrorBoundary from './components/ErrorBoundary';
 
 
@@ -25,7 +24,6 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path='Resume' element={<Resume/>} />
       <Route path='Projects' element={<Projects/>} />
-      <Route path='Contact' element={<Contact/>} />
     </Route>
   )
 )

@@ -1,10 +1,10 @@
 terraform {
-  required_version = ">=1.7.4"
+  required_version = ">=1.9.0"
 
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 5.40.0"
+      version = "~> 5.80.0"
     }
   }
 
@@ -14,5 +14,13 @@ terraform {
     region         = "us-east-1"
     encrypt        = true
     dynamodb_table = "personal-site-tf-lock"
+  }
+}
+
+provider "aws" {
+  region = local.aws-region
+
+  default_tags {
+    tags = local.common_tags
   }
 }
