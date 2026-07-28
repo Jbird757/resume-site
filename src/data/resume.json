@@ -1,0 +1,76 @@
+{
+  "experience": [
+    {
+      "id": "byu-cloud-engineer",
+      "period": "2023-Present",
+      "role": "Cloud Infrastructure Engineer",
+      "company": "Brigham Young University",
+      "location": "Provo, UT",
+      "description": "As a cloud infrastructure engineer, I helped manage the networks and resources in AWS and Azure. I mostly worked on cloud account and user management, and in my down time when not fulfilling customer orders I worked on automating our internal processes using Python and the AWS CLI to increase speed of tasks and decrease the time of tedious processes. My most used tools in this position were Python, Terraform, IAM, and Microsoft Entra. I also had to be familiar with a wide variety of AWS and Azure services, as I regularly helped our customers (who were mostly developers) troubleshoot problems.",
+      "notableEvents": "I earned my AWS Solutions Architect certification while working here. I also had the opportunity to lead a team to research AWS Control Tower for use in our organization. I not only gained knowledge and skills related to cloud engineering, but also gained valuable experience working with a team in industry."
+    },
+    {
+      "id": "lds-qa-intern",
+      "period": "2023",
+      "role": "Quality Assurance Engineer (Intern)",
+      "company": "Church of Jesus Christ of Latter-day Saints",
+      "location": "Riverton, UT",
+      "description": "I worked as a front-end quality assurance engineer, which meant that my work was primarily in the UI of the sites I tested, although I also made extensive use of AWS features such as Lambda, DynamoDB, and CloudWatch. I was also responsible for bundling code and deploying to our test environments in Microsoft Azure. Outside of my main assignment, I often needed to work with the business analysts and developers together to help resolve misunderstandings and improve communication, which improved efficiency greatly within my team.",
+      "notableEvents": "I took this internship opportunity to proactively explore career paths. I talked to many people in different roles about their careers, and it was here that I decided that going into management would be a rewarding career path."
+    },
+    {
+      "id": "byu-helpdesk",
+      "period": "2021-2023",
+      "role": "Help Desk Technician",
+      "company": "BYU Department of Physics and Astronomy",
+      "location": "Provo, UT",
+      "description": "I worked as a Level 2 Help Desk Technician for over two years. During this time, my responsibilities covered many areas, including software troubleshooting and licensing, networking, hardware troubleshooting, and inventory and data management. Most importantly, I gained valuable communication and negotiation skills in this client-facing position.",
+      "notableEvents": "I completely redesigned the inventory management system twice, each time increasing accuracy and productivity appreciably."
+    },
+    {
+      "id": "volunteer-representative",
+      "period": "2018-2020",
+      "role": "Volunteer Representative",
+      "company": "Church of Jesus Christ of Latter-day Saints",
+      "location": "Vietnam and Cambodia",
+      "description": "I devoted nearly two years of my life to volunteering in Vietnam, Cambodia, and later Houston, TX. I primarily helped individuals overcome the challenges in their lives and live more meaningfully though the principles taught by Jesus Christ. I studied Vietnamese religiously and became fluent, and I also learned a bit of Khmer and Spanish. Other responsibilities during this time included leading free English and music classes and acting in what would be considered in a company to be a project manager role with other volunteers. I was also in charge of managing the finances of the entire Vietnam Volunteer Chapter for a few months.",
+      "notableEvents": null
+    }
+  ],
+  "education": [
+    {
+      "id": "byu-msism",
+      "period": "2023 - 2025",
+      "degree": "Masters",
+      "field": "Information Systems Management",
+      "institution": "Brigham Young University",
+      "location": "Provo, UT",
+      "description": "After being in the Information Systems undergraduate major for a year, I applied to the Information Systems Management integrated master's program, to which I was also accepted. In this program I am focusing on the management track, taking classes such as strategic management, communication for leaders, and tech management, while continuing to develop my technical skills in classes such as data structures, web development, and business technology infrastructure."
+    },
+    {
+      "id": "byu-bsis",
+      "period": "2017 - 2025",
+      "degree": "Bachelors",
+      "field": "Information Systems",
+      "institution": "Brigham Young University",
+      "location": "Provo, UT",
+      "description": "I started at BYU as a freshman in 2017 but took a break to volunteer in Southeast Asia (See above). I returned to school in 2021, and soon after was accepted into the Information Systems undergraduate program. I will graduate in 2025 and simultaneously earn a bachelor's and master's degree in IS. While at BYU, I participated in several clubs, including the Association for Information Systems (AIS), Association for Computational Mathematics (ACM) and the Aviation club."
+    }
+  ],
+  "skills": [
+    "Project Management",
+    "Data Analytics",
+    "Software Development",
+    "Network Security",
+    "Communication and Negotiation",
+    "Creative Problem Solving"
+  ],
+  "languagesAndTech": [
+    "HTML/CSS",
+    "Python",
+    "React",
+    "C++",
+    "SQL",
+    "And more..."
+  ]
+}

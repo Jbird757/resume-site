@@ -32,9 +32,6 @@ export default function RootLayout() {
                                 <li className="nav-item">
                                     <NavLink className='nav-link' to='/Projects'>Projects</NavLink>
                                 </li>
-                                {/* <li className="nav-item">
-                                    <NavLink className='nav-link' to='/Contact'>Contact</NavLink>
-                                </li> */}
                             </ul>
                         </div>
                     </div>

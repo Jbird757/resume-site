@@ -11,3 +11,7 @@ locals {
 output module_bucket_name {
   value = module.personal-site.bucket_name
 }
+
+output module_cloudfront_distribution_id {
+  value = module.personal-site.cloudfront_distribution_id
+}
