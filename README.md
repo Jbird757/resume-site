@@ -41,13 +41,19 @@ In July 2026, the application underwent a comprehensive modernization effort:
 * **`npm run build`**: Compiles production static bundle to `./build` in ~1s.
 * **`npm run preview`**: Serves the compiled production build locally for verification.
 
-### Infrastructure (Terraform)
+### Infrastructure & AWS Resource Management
 
 ```bash
 cd terraform
 terraform init
 terraform plan
 ```
+
+#### 📌 Viewing All Application Resources in AWS Console (100% Free)
+All infrastructure resources are automatically tagged with `Application = "personal-site"` and managed via an **AWS Resource Group**:
+1. Open the **AWS Management Console**.
+2. Navigate to **Resource Groups & Tag Editor** $\rightarrow$ **Saved Resource Groups**.
+3. Select **`personal-site-resources`** to view all associated S3 buckets, CloudFront distributions, ACM certificates, and IAM roles in one unified dashboard.
 
 ---
 

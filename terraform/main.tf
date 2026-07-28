@@ -6,3 +6,24 @@ module "personal-site" {
   site_domain_name  = local.domain
   alternate_domains = local.alt_domains
 }
+
+#------------------------------------------------ AWS Resource Group ------------------------------------------------#
+
+resource "aws_resourcegroups_group" "personal_site" {
+  name        = "personal-site-resources"
+  description = "Unified Resource Group for Jay Lowry's personal site resources"
+
+  resource_query {
+    query = jsonencode({
+      ResourceTypeFilters = ["AWS::AllSupported"]
+      TagFilters = [
+        {
+          Key    = "Application"
+          Values = ["personal-site"]
+        }
+      ]
+    })
+  }
+
+  tags = local.common_tags
+}

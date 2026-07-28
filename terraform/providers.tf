@@ -16,3 +16,11 @@ terraform {
     dynamodb_table = "personal-site-tf-lock"
   }
 }
+
+provider "aws" {
+  region = local.aws-region
+
+  default_tags {
+    tags = local.common_tags
+  }
+}

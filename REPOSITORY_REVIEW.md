@@ -11,7 +11,7 @@
 
 ## 1. Current System Overview
 
-The site is built with **React 19**, **Vite 5**, and **React Router 7**, deployed serverlessly to AWS (S3 bucket `j-personal-site` + CloudFront CDN distribution) provisioned via **Terraform 1.9** and automated through **GitHub Actions** CI/CD workflows with automated Vitest testing.
+The site is built with **React 19**, **Vite 5**, and **React Router 7**, deployed serverlessly to AWS (S3 bucket `j-personal-site` + CloudFront CDN distribution) provisioned via **Terraform 1.9** and automated through **GitHub Actions** CI/CD workflows with automated Vitest testing. All AWS resources are tagged automatically and aggregated into a unified **AWS Resource Group** (`personal-site-resources`) for 1-click console visibility.
 
 ### Active Dependency Inventory
 
