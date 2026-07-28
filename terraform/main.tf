@@ -11,7 +11,7 @@ module "personal-site" {
 
 resource "aws_resourcegroups_group" "personal_site" {
   name        = "personal-site-resources"
-  description = "Unified Resource Group for Jay Lowry's personal site resources"
+  description = "Unified Resource Group for Jay Lowry personal site resources"
 
   resource_query {
     query = jsonencode({
