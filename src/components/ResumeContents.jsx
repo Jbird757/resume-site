@@ -28,7 +28,7 @@ const Contents = () => {
                                             </div>
                                         </div>
                                         <div className="col-lg-9">
-                                            <div className="text-light">
+                                            <div className="text-light" style={{ whiteSpace: 'pre-line' }}>
                                                 {exp.description}
                                                 {exp.notableEvents && (
                                                     <>

@@ -1,13 +1,22 @@
 {
   "experience": [
     {
+      "id": "pariveda-technical-consultant",
+      "period": "2025 - Present",
+      "role": "Technical Consultant / Full-Stack & Data Engineer",
+      "company": "Pariveda Solutions, Inc. | Client: Tier-1 Midstream Natural Gas Pipeline Operator",
+      "location": "Houston, TX",
+      "description": "I work as a Technical Consultant at Pariveda Solutions, embedded with a Tier-1 midstream natural gas pipeline operator in Houston. In my day-to-day work, I write and ship production code daily across Angular, FastAPI, containerized ELT pipelines, AWS infrastructure, and Redshift codebases to deliver full-stack features across client applications. My role balances hands-on software development with systems architecture—whether that means architecting a Flyway database migration framework across isolated AWS accounts, automating SQL ingestions from complex legal tariff documents, or evaluating compute, orchestration, and cost trade-offs across AWS Lambda, ECS, MWAA, and Dagster to guide executive tech stack decisions.",
+      "notableEvents": "When a critical ELT pipeline failed, I diagnosed the root cause and authored a decoupled re-architecture roadmap that was adopted by executive business leadership. I also led the implementation of our Flyway database migration framework across 3 AWS accounts, cutting deployment times by ~50% and mentoring the client's engineering team through adoption."
+    },
+    {
       "id": "byu-cloud-engineer",
-      "period": "2023-Present",
+      "period": "2023 - 2025",
       "role": "Cloud Infrastructure Engineer",
-      "company": "Brigham Young University",
+      "company": "Brigham Young University Office of Information Technology",
       "location": "Provo, UT",
-      "description": "As a cloud infrastructure engineer, I helped manage the networks and resources in AWS and Azure. I mostly worked on cloud account and user management, and in my down time when not fulfilling customer orders I worked on automating our internal processes using Python and the AWS CLI to increase speed of tasks and decrease the time of tedious processes. My most used tools in this position were Python, Terraform, IAM, and Microsoft Entra. I also had to be familiar with a wide variety of AWS and Azure services, as I regularly helped our customers (who were mostly developers) troubleshoot problems.",
-      "notableEvents": "I earned my AWS Solutions Architect certification while working here. I also had the opportunity to lead a team to research AWS Control Tower for use in our organization. I not only gained knowledge and skills related to cloud engineering, but also gained valuable experience working with a team in industry."
+      "description": "As a Cloud Infrastructure Engineer at BYU, I co-managed an AWS organization of roughly 200 accounts across three university campuses with a 4-engineer team. I utilized Terraform to enforce core networking, security baselines, and IAM governance across the organization. To streamline our team's platform operations, I designed a Proof of Concept platform using AWS Control Tower and Terraform to automate account provisioning and decommissioning. Throughout my time in this role, I served as one of the primary Cloud Subject Matter Experts across all three campuses, advising department teams on AWS architecture best practices, account onboarding, and complex network troubleshooting.",
+      "notableEvents": "I earned my AWS Solutions Architect Associate and Azure Administrator Associate certifications while working here."
     },
     {
       "id": "lds-qa-intern",
@@ -15,26 +24,26 @@
       "role": "Quality Assurance Engineer (Intern)",
       "company": "Church of Jesus Christ of Latter-day Saints",
       "location": "Riverton, UT",
-      "description": "I worked as a front-end quality assurance engineer, which meant that my work was primarily in the UI of the sites I tested, although I also made extensive use of AWS features such as Lambda, DynamoDB, and CloudWatch. I was also responsible for bundling code and deploying to our test environments in Microsoft Azure. Outside of my main assignment, I often needed to work with the business analysts and developers together to help resolve misunderstandings and improve communication, which improved efficiency greatly within my team.",
-      "notableEvents": "I took this internship opportunity to proactively explore career paths. I talked to many people in different roles about their careers, and it was here that I decided that going into management would be a rewarding career path."
+      "description": "I worked as a quality assurance engineer deploying Azure CI/CD testing pipelines and building automation leveraging AWS services like Lambda, DynamoDB, and CloudFront. Beyond testing front-end UI and backend integrations, I spent much of my time bridging the gap between business analysts, product owners, and developers to resolve requirements misunderstandings, which significantly improved delivery efficiency within my team.",
+      "notableEvents": "I used this internship opportunity to explore career paths across engineering and leadership, confirming my interest in technical leadership, agile delivery, and architecture."
     },
     {
       "id": "byu-helpdesk",
-      "period": "2021-2023",
-      "role": "Help Desk Technician",
+      "period": "2021 - 2023",
+      "role": "Help Desk Technician / Scrum Master",
       "company": "BYU Department of Physics and Astronomy",
       "location": "Provo, UT",
-      "description": "I worked as a Level 2 Help Desk Technician for over two years. During this time, my responsibilities covered many areas, including software troubleshooting and licensing, networking, hardware troubleshooting, and inventory and data management. Most importantly, I gained valuable communication and negotiation skills in this client-facing position.",
-      "notableEvents": "I completely redesigned the inventory management system twice, each time increasing accuracy and productivity appreciably."
+      "description": "I worked as a Level 2 Computer Help Desk Technician for over two years, managing a network of 800+ endpoints. Beyond daily hardware, networking, and software troubleshooting, I acted as Scrum Master for a project team and built API integrations connecting our local inventory systems to a cloud database. This client-facing position gave me valuable foundational skills in technical communication, team leadership, and problem-solving under pressure.",
+      "notableEvents": "I completely redesigned our local inventory management system twice, building API integrations to cloud databases that significantly increased tracking accuracy and productivity across hundreds of endpoints."
     },
     {
       "id": "volunteer-representative",
-      "period": "2018-2020",
+      "period": "2018 - 2020",
       "role": "Volunteer Representative",
       "company": "Church of Jesus Christ of Latter-day Saints",
-      "location": "Vietnam and Cambodia",
-      "description": "I devoted nearly two years of my life to volunteering in Vietnam, Cambodia, and later Houston, TX. I primarily helped individuals overcome the challenges in their lives and live more meaningfully though the principles taught by Jesus Christ. I studied Vietnamese religiously and became fluent, and I also learned a bit of Khmer and Spanish. Other responsibilities during this time included leading free English and music classes and acting in what would be considered in a company to be a project manager role with other volunteers. I was also in charge of managing the finances of the entire Vietnam Volunteer Chapter for a few months.",
-      "notableEvents": null
+      "location": "Vietnam, Cambodia, Houston, TX",
+      "description": "I devoted nearly two years of my life to volunteering in Vietnam, Cambodia, and later Houston, TX. I primarily helped individuals navigate personal challenges and live more meaningfully through Christian principles. I studied Vietnamese intensively and achieved professional fluency, while also learning conversational Khmer and Spanish. My responsibilities included leading free community classes, coordinating volunteer teams in project management capacities, and managing chapter finances.",
+      "notableEvents": "I managed the entire financial budget for the Vietnam Volunteer Chapter for several months and led training workshops to mentor new volunteer representatives."
     }
   ],
   "education": [
@@ -43,34 +52,34 @@
       "period": "2023 - 2025",
       "degree": "Masters",
       "field": "Information Systems Management",
-      "institution": "Brigham Young University",
+      "institution": "Brigham Young University | Marriott School of Business",
       "location": "Provo, UT",
-      "description": "After being in the Information Systems undergraduate major for a year, I applied to the Information Systems Management integrated master's program, to which I was also accepted. In this program I am focusing on the management track, taking classes such as strategic management, communication for leaders, and tech management, while continuing to develop my technical skills in classes such as data structures, web development, and business technology infrastructure."
+      "description": "Completed the integrated Master of Information Systems Management program at BYU's Marriott School of Business, graduating in May 2025. My studies focused on strategic management, leadership communication, and tech management, while advancing my engineering skills in data structures, web development, and cloud infrastructure."
     },
     {
       "id": "byu-bsis",
       "period": "2017 - 2025",
       "degree": "Bachelors",
-      "field": "Information Systems",
+      "field": "Information Systems (Minor in Computer Science)",
       "institution": "Brigham Young University",
       "location": "Provo, UT",
-      "description": "I started at BYU as a freshman in 2017 but took a break to volunteer in Southeast Asia (See above). I returned to school in 2021, and soon after was accepted into the Information Systems undergraduate program. I will graduate in 2025 and simultaneously earn a bachelor's and master's degree in IS. While at BYU, I participated in several clubs, including the Association for Information Systems (AIS), Association for Computational Mathematics (ACM) and the Aviation club."
+      "description": "Graduated concurrently with my master's degree in May 2025, earning a Bachelor of Science in Information Systems alongside a minor in Computer Science. While at BYU, I participated in several student organizations, including the Association for Information Systems (AIS), Association for Computing Machinery (ACM), and the Aviation Club."
     }
   ],
   "skills": [
-    "Project Management",
-    "Data Analytics",
-    "Software Development",
-    "Network Security",
-    "Communication and Negotiation",
-    "Creative Problem Solving"
+    "Full-Stack Software Development",
+    "Cloud Architecture & Governance (AWS/Azure)",
+    "Data Engineering & Pipeline Automation",
+    "Infrastructure as Code (Terraform)",
+    "Technical Leadership & Agile (PSM I)",
+    "Cross-Functional Communication & Negotiation"
   ],
   "languagesAndTech": [
-    "HTML/CSS",
-    "Python",
-    "React",
-    "C++",
-    "SQL",
-    "And more..."
+    "Python (FastAPI, SQLAlchemy)",
+    "TypeScript/JavaScript (Angular, React)",
+    "SQL (Flyway, Redshift, PostgreSQL)",
+    "AWS (Lambda, ECS, Control Tower, MWAA)",
+    "Terraform & Docker",
+    "Azure & CI/CD Pipelines"
   ]
 }
