@@ -6,7 +6,7 @@
       "role": "Technical Consultant / Full-Stack & Data Engineer",
       "company": "Pariveda Solutions, Inc. | Client: Tier-1 Midstream Natural Gas Pipeline Operator",
       "location": "Houston, TX",
-      "description": "I work as a Technical Consultant at Pariveda Solutions, embedded with a Tier-1 midstream natural gas pipeline operator in Houston. In my day-to-day work, I write and ship production code daily across Angular, FastAPI, containerized ELT pipelines, AWS infrastructure, and Redshift codebases to deliver full-stack features across client applications. My role balances hands-on software development with systems architecture—whether that means architecting a Flyway database migration framework across isolated AWS accounts, automating SQL ingestions from complex legal tariff documents, or evaluating compute, orchestration, and cost trade-offs across AWS Lambda, ECS, MWAA, and Dagster to guide executive tech stack decisions.",
+      "description": "I work as a Technical Consultant at Pariveda Solutions, embedded with a Tier-1 midstream natural gas pipeline operator in Houston. In my day-to-day work, I utilize the latest AI models and tools to accelerate the development and delivery of production code daily across Full Stack applications containerized ELT pipelines, and AWS infrastructure to deliver full-stack features across client applications. My role balances hands-on software development with systems architecture—whether that means architecting a Flyway database migration framework across isolated AWS accounts, automating SQL ingestions from complex legal tariff documents, or evaluating compute, orchestration, and cost trade-offs across AWS Lambda, ECS, MWAA, and Dagster to guide executive tech stack decisions.",
       "notableEvents": "When a critical ELT pipeline failed, I diagnosed the root cause and authored a decoupled re-architecture roadmap that was adopted by executive business leadership. I also led the implementation of our Flyway database migration framework across 3 AWS accounts, cutting deployment times by ~50% and mentoring the client's engineering team through adoption."
     },
     {
@@ -67,6 +67,7 @@
     }
   ],
   "skills": [
+    "Agentic AI and LLMs",
     "Full-Stack Software Development",
     "Cloud Architecture & Governance (AWS/Azure)",
     "Data Engineering & Pipeline Automation",
@@ -75,6 +76,7 @@
     "Cross-Functional Communication & Negotiation"
   ],
   "languagesAndTech": [
+    "AI (AIDLC, MCP, Harnesses)",
     "Python (FastAPI, SQLAlchemy)",
     "TypeScript/JavaScript (Angular, React)",
     "SQL (Flyway, Redshift, PostgreSQL)",
